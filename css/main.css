@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-#coins_logo {
+#heading_logo {
     width: 50px;
 }
 
@@ -34,7 +34,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .flex-wrapper.horizontal-centering {
