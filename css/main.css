@@ -25,7 +25,11 @@ a {
 }
 
 #tax_logo {
-    width: 30px;
+    width: 50px;
+}
+
+.tax-header {
+    padding-left: 10px;
 }
 
 /* CSS flex-box layout is a CSS3 web layout model. */
@@ -101,5 +105,9 @@ a {
 
     #sidebar a {
         margin: 0;
+    }
+
+    #tax_logo {
+        width: 30px;
     }
 }
