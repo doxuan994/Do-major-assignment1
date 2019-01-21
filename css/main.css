@@ -20,6 +20,29 @@ a {
     text-decoration: none;
 }
 
+#coins_logo {
+    width: 50px;
+}
+
+#tax_logo {
+    width: 30px;
+}
+
+
+
+
+/* CSS flex-box layout is a CSS3 web layout model. */
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-wrapper.horizontal-centering {
+    justify-content: space-between; /* horizontal centering */
+}
+
 #main-header-container,
 .footer-wrapper {
     background-color: #473d47;
@@ -40,22 +63,27 @@ a {
 }
 
 #sidebar a {
-	display: block;
-	padding: 10px;
-	color: rgba(255,255,255, 0.5);
-	margin: 15px 0 0 0;
-	text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgba(255,255,255, 0.5);
+    margin: 15px 0 0 0;
+    text-decoration: none;
 }
 
 #sidebar a:hover {
-	background-color: rgba(255, 255, 255, 0.1);
-	color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
 }
 
 #content {
     display: table-cell;
     width: 85%;
     padding: 10px 0 0 10px;
+}
+
+/* Section */
+.tax-header {
+    padding-left: 10px;
 }
 
 /* Footer */
@@ -68,5 +96,16 @@ a {
 }
 
 .footer-wrapper a:hover {
-	color: white;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    #main-header-container, #main-container, #sidebar, #content  {
+        display: block;
+        width: 100%;
+    }
+
+    #sidebar a {
+        margin: 0;
+    }
 }
