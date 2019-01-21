@@ -110,4 +110,8 @@ a {
     #tax_logo {
         width: 30px;
     }
+
+    .tax-header {
+        padding-left: 0;
+    }
 }
