@@ -99,6 +99,7 @@ a {
     color: white;
 }
 
+/* Responsive smaller screen */
 @media only screen and (max-width: 600px) {
     #main-header-container, #main-container, #sidebar, #content  {
         display: block;
